@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Perfect Clone</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header_first">
+            <section class="logo_section">
+                <figure class="logo_img">
+                    <img src="./logo.svg" alt="">
+                </figure>
+                <button class="button btn-green post-btn">New Post</button>
+            </section>
+            <section class="search_section">
+                <input  type="text" name="" id="search_bar" 
+                
+                placeholder="Search..." autocomplete="off">
+                <button class="search-btn" onclick="handleSearch()"><img class="search" src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg"></button>
+            </section>
+            <section class="auth_section">
+                <img src="./prize.svg" alt="prize_img">
+                <button class="button btn-blue">Go Ad-Free</button>
+                <button class="button btn-transparent">Sign-In</button>
+                <button class="button btn-green">Sign-Up</button>
+            </section>
+        </div>
+            <div class="header_second" >
+            
+                <button class="inner_second" onclick="categorySearch()">
+                    DIY
+                </button>
+            
+                <button class="inner_second" onclick="categorySearch()">
+                    Oddly Satisfying
+                </button>
+                <button class="inner_second" onclick="categorySearch()">
+                    Coffee
+                </button>
+            
+                <button class="inner_second" onclick="categorySearch()">
+                    Staff Picks
+                </button>
+
+                <button class="inner_second" onclick="categorySearch()">
+                    Gaming
+                </button>
+            
+                <button class="inner_second" onclick="categorySearch()">
+                    Memes
+                </button>
+
+                <button class="inner_second" onclick="categorySearch()">
+                    Clean Your Desk
+                </button>
+            
+                <button class="inner_second" onclick="categorySearch()">
+                    Funny
+                </button>
+        </div> 
+    </header>
+
+    <div class="image_container">
+        
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
